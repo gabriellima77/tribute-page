@@ -1,0 +1,56 @@
+body {
+    color: #3a393d;
+    font-family: 'Commissioner', sans-serif;
+}
+#main {
+    background-color: #ECE2D0;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    font-size: 16px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+header > p {
+    font-size: 20px;
+    align-self: center;
+    margin-top: 0;
+}
+#title {
+    font-family: 'Lobster Two', cursive;
+    font-size: 45px;
+    align-self: center;
+    margin-bottom: 0;
+}
+#img-div{
+    background-color: #BFB5AF;
+    display: flex;
+    flex-direction: column;
+}
+#image {
+    max-width: 100%;
+    align-self: center;
+}
+#image-caption {
+    align-self: center;
+}
+#tribute-info {
+    width: 50%;
+}
+main > div {
+    display: flex;
+    flex-direction: column;
+}
+div > h2 {
+    align-self: center;
+}
+#quote {
+    font-style: italic;
+    font-size: 18px;
+}
